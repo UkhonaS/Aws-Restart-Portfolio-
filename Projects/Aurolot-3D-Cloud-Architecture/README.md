@@ -1,7 +1,5 @@
 # Aurolot 3D Web Application – Cloud Architecture Design
 
-[![AWS Certified](https://img.shields.io/badge/AWS-Certified-blue)](https://aws.amazon.com/certification/)  
-[![Architecture Diagram](https://img.shields.io/badge/Diagram-View-lightgrey)](Architecture-Diagram/aurolot-3d-architecture.png)
 
 ## Project Overview
 
@@ -13,7 +11,7 @@ This repository demonstrates a **cloud architecture design using AWS services** 
 
 ## Architecture Diagram
 
-![Architecture Diagram](Architecture-Diagram/aurolot-3d-architecture.png)
+(Included separately)
 
 **Key components:**  
 
@@ -76,13 +74,3 @@ This architecture supports millions of users with **high availability**, **scala
 
 ---
 
-## Next Steps / Roadmap
-
-- Implement CI/CD pipeline for automated deployments.  
-- Integrate AWS Cognito for secure user authentication.  
-- Expand monitoring with AWS X-Ray for backend performance insights.  
-- Optimize S3 storage lifecycle and cache invalidation strategies.  
-
----
-
-*Repository Structure:*  
