@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram id="ss-osvrbx4iQydBmKjML" name="Aurolot AWS Architecture">
+    <mxGraphModel dx="2143" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-1" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Users&#xa;(Web / Mobile Browsers)" vertex="1">
+          <mxGeometry height="60" width="300" x="450" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-2" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Amazon Route 53&#xa;(DNS)" vertex="1">
+          <mxGeometry height="60" width="300" x="450" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-3" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" value="Elastic Load Balancer (ELB)" vertex="1">
+          <mxGeometry height="60" width="300" x="450" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-4" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Amazon EC2&#xa;(Application Servers)" vertex="1">
+          <mxGeometry height="80" width="300" x="200" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-5" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" value="AWS Lambda&#xa;(Event Processing)" vertex="1">
+          <mxGeometry height="80" width="300" x="700" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-6" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="Amazon RDS&#xa;Users, Orders, Payments" vertex="1">
+          <mxGeometry height="80" width="300" x="200" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-7" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="Amazon DynamoDB&#xa;Products, Sessions" vertex="1">
+          <mxGeometry height="80" width="300" x="700" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-8" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;" value="Amazon CloudWatch&#xa;&amp;&#xa;AWS Trusted Advisor" vertex="1">
+          <mxGeometry height="80" width="300" x="450" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-9" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-1" target="JPowzzkTSLC3Lg6vFmxn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-10" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-2" target="JPowzzkTSLC3Lg6vFmxn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-11" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-3" target="JPowzzkTSLC3Lg6vFmxn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-12" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-3" target="JPowzzkTSLC3Lg6vFmxn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-13" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-4" target="JPowzzkTSLC3Lg6vFmxn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-14" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-5" target="JPowzzkTSLC3Lg6vFmxn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-15" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-4" target="JPowzzkTSLC3Lg6vFmxn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPowzzkTSLC3Lg6vFmxn-16" edge="1" parent="1" source="JPowzzkTSLC3Lg6vFmxn-5" target="JPowzzkTSLC3Lg6vFmxn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
