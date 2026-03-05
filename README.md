@@ -2,7 +2,7 @@
   <img src="banner.png.png" width="100%">
 </p>
 
-# ☁️ AWS re/Start Journey – Ukhona Sibutha
+# ☁️ AWS re/Start Journey 
 
 
 
@@ -35,7 +35,6 @@ This portfolio represents not only my journey into cloud computing but also my c
 
 * ☁️ AWS Cloud Computing
 * 📚 Studying for the AWS Cloud Practitioner Certification
-* 🎓 Currently pursuing a degree at UNISA
 * 🚀 Building practical cloud projects
 
 ---
@@ -43,3 +42,5 @@ This portfolio represents not only my journey into cloud computing but also my c
 ## Final Note
 
 This journey into cloud computing is more than just learning technical skills—it represents growth, faith, and determination to build a better future.
+
+As I continue learning and growing in the world of cloud computing, I’m excited about the possibilities ahead. I truly appreciate you taking the time to explore my portfolio, and I would love to have you join me on this journey as I continue to learn, build, and grow.
