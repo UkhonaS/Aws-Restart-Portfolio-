@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png.png" width="100%">
+</p>
+
 # ☁️ AWS re/Start Journey – Ukhona Sibutha
 
 
