@@ -1,28 +1,41 @@
-# Aws-Restart-Portfolio-
-AWS re/Start is a full-time, skills development program that prepares individuals for entry-level roles in cloud computing. It focuses on foundational IT skills, Linux, networking, security, Python, and AWS Cloud fundamentals, while also building professional and employability skills through hands-on labs and real-world scenarios.
+# ☁️ AWS re/Start Journey – Ukhona Sibutha
 
 
 
-This repository showcases my hands-on experience with cloud computing concepts and AWS services.
-It includes practical labs, projects, and certifications completed as part of structured cloud training and independent learning.
+## About My Journey
 
-The work in this repository demonstrates foundational and intermediate skills in:
-- Cloud infrastructure
-- Compute and networking services
-- Security and database fundamentals
-- Hands-on AWS labs and projects
+Taking on the AWS re/Start program has been both a challenge and a blessing. It has required discipline, dedication, and perseverance—especially during moments when I felt like saying, *“I want to quit.”* During those times, our administrator played an important role by offering words of encouragement and reminding us why we started.
 
-This portfolio is designed to grow as I continue working on cloud-based solutions and real-world projects.
+Another special part of this journey has been the incredible group of colleagues I had the privilege of learning alongside. Even during the most challenging weeks, their support, positivity, and shared determination often brought smiles to our faces and reminded us that we were not facing the journey alone.
+
+As a young woman from a disadvantaged background, I made a promise to myself that where I come from would not define where I am going. Instead, I choose to embrace every opportunity that comes my way—even if it means creating that opportunity for myself.
+
+That mindset is what led me to apply for the AWS re/Start program. I applied from a place of faith, taking a leap into something completely new. It was my first time being exposed to a program like this, and I saw it as an opportunity to grow, challenge myself, and stand out among thousands of graduates.
+
+Through this journey, I am learning to become versatile and adaptable—gaining skills that allow me to move beyond limitations. From walking the runway, to **currently pursuing my degree at the University of South Africa (UNISA)**, and now working toward conquering the **AWS Cloud Practitioner program**, I am determined to keep growing and creating a future that reflects both my ambition and my faith.
 
 ---
 
-## Repository Structure
+## What This Portfolio Represents
 
-### Labs
-Hands-on labs focused on core cloud infrastructure concepts.
+This portfolio represents not only my journey into cloud computing but also my commitment to:
 
-### Certifications & Badges
-Documentation and evidence of completed cloud learning paths and simulations.
+* Continuous learning
+* Resilience and perseverance
+* Creating opportunities where none existed before
+* Growing both personally and professionally
 
-### Projects
-End-to-end cloud projects demonstrating applied knowledge, architecture design, and deployment.
+---
+
+## Current Focus
+
+* ☁️ AWS Cloud Computing
+* 📚 Studying for the AWS Cloud Practitioner Certification
+* 🎓 Currently pursuing a degree at UNISA
+* 🚀 Building practical cloud projects
+
+---
+
+## Final Note
+
+This journey into cloud computing is more than just learning technical skills—it represents growth, faith, and determination to build a better future.
